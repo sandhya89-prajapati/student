@@ -20,7 +20,7 @@ mongoose.connect(uri,{
     useFindAndModify:true,
     useCreateIndex:true
 
-}).then(()=>{console.log('mongodb connected')})
+}).then(()=>{console.log('mongodb connected....')})
 .catch(err =>console.log(err))
 
 const PORT =5000
